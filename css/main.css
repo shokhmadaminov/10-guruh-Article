@@ -1,0 +1,196 @@
+/* GLOBAL STYLES */
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bebas Neue', "Arial", cursive;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.6px;
+    letter-spacing: 2px;
+    color: #222;
+    background-color: #fff;
+}
+
+
+/* MAIN SECTION STYLES */
+.site-main {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-grow: 1;
+    display: flex;
+}
+
+/* LEFT SECTION STYLES */
+.left-section {
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    background-image: url("../images/left-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-section-content {
+    width: 285px;
+}
+.left-section-title {
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.left-section-btn {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    display: inline-flex;
+    text-decoration: none;
+    background-color: #1e90ff;
+    padding: 12px 24px;
+}
+.left-section-btn:hover {
+    background-color: rgba(30, 144, 255, 0.8);
+}
+.left-section-btn:active {
+    background-color: rgba(30, 144, 255, 0.6);
+}
+.left-section-btn-icon {
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/star-icon.svg");
+    background-size: contain;
+    background-position: center;
+    margin-right: 12px;
+}
+
+/* RIGHT SECTION STYLES */
+.right-section {
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    padding: 54px;
+}
+.right-section-title {
+    font-size: 24px;
+    line-height: 28.8px;
+    margin-bottom: 24px;
+}
+.right-section-hr {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: #999;
+    margin-bottom: 24px;
+}
+.right-section-list {
+    list-style-type: none;
+    margin-bottom: 24px;
+}
+.right-section-item {
+    display: flex;
+}
+.right-section-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.right-section-item-img {
+    width: 160px;
+    height: 90px;
+    border-radius: 4px;
+    object-fit: cover;
+    margin-right: 16px;
+}
+.right-section-item-content {
+    padding-top: 16px;
+}
+.right-section-item-title {
+    margin-bottom: 4px;
+}
+.right-section-item-title-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #222;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+.right-section-item-title-link:hover {
+    color: #1e90ff;
+}
+.right-section-item-title-link:active {
+    color: rgba(30, 144, 255, 0.6);
+}
+.right-section-item-footer {
+    display: flex;
+    align-items: center;
+}
+.right-section-item-times {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+.right-section-item-times img {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    margin-right: 4px;
+}
+.right-section-item-times-time {
+    font-family: 'Roboto Condensed', "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #888;
+    letter-spacing: normal;
+}
+.right-section-item-seen {
+    display: flex;
+    align-items: center;
+}
+.right-section-item-seen img {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    margin-right: 4px;
+}
+.right-section-item-seen-text {
+    font-family: 'Roboto Condensed', "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #666;
+    letter-spacing: normal;
+}
+.right-section-btn {
+    width: 100%;
+    font-family: 'Roboto Condensed', "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #fff;
+    background-color: #1e90ff;
+    padding: 12px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.right-section-btn:hover {
+    background-color: rgba(30, 144, 255, 0.8);
+}
+.right-section-btn:active {
+    background-color: rgba(30, 144, 255, 0.6);
+}
